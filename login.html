@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="card">
+  <h2>Login</h2>
+
+  <input type="text" id="loginUser" placeholder="Username">
+
+  <div class="password-box">
+    <input type="password" id="loginPass" placeholder="Password">
+    <span onclick="togglePassword('loginPass', this)">👁</span>
+  </div>
+
+  <button onclick="login()">Login</button>
+
+  <p>No account?
+    <a href="signup.html">Signup</a>
+  </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
